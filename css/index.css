@@ -71,12 +71,20 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+.top-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.top-content div nav{
+    /*border: 2px black solid;*/
+    display: flex;
+    justify-content: space-around;
+}
+.top-content div nav a{
+    text-decoration: none;
 }
 
 .top-content .text-container {
@@ -140,7 +148,33 @@ footer nav {
     font-size: 14px;
 }
 
+
+
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*css for about.html*/
+.header div{
+    display: flex;
+    justify-content: center;
+    /*border: 2px solid black;*/
+}
+
+.mySection{
+    /*border: 2px red solid;*/
+    display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
+}
+
+.mySection div{
+    border-bottom: 2px solid black;
+    width: 38%;
+}
+
+
+
+
+
