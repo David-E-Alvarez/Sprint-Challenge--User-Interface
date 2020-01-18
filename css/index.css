@@ -79,10 +79,34 @@ p {
     border-bottom: 1px dashed black;
 }
 
+/**css for my nav;start**/
+.top-content  nav{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+    /*border: red solid 2px;*/
+    margin-bottom: 20px;
+}
+
+.links{
+    width:65%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .links a{
+      text-decoration: none;
+      margin-right: 80px;
+  }
+  /*end*/
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 20px;
 }
 
 .middle-content {
