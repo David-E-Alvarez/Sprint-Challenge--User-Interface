@@ -123,7 +123,17 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    /*test code begin*/
+    animation-name: backgroundColorChange;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    /*end*/
 }
+@keyframes backgroundColorChange {
+    from {background-color: white;}
+    to {background-color: black;}
+  }
 
 .middle-content .boxes .box {
     width: 12.5%;
