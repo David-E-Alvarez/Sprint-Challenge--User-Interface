@@ -79,10 +79,34 @@ p {
     border-bottom: 1px dashed black;
 }
 
+/**css for my nav;start**/
+.top-content  nav{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+    /*border: red solid 2px;*/
+    margin-bottom: 20px;
+}
+
+.links{
+    width:65%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .links a{
+      text-decoration: none;
+      margin-right: 85px;
+  }
+  /*end*/
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 20px;
 }
 
 .middle-content {
@@ -99,7 +123,17 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    /*test code begin*/
+    animation-name: backgroundColorChange;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    /*end*/
 }
+@keyframes backgroundColorChange {
+    from {background-color: white;}
+    to {background-color: black;}
+  }
 
 .middle-content .boxes .box {
     width: 12.5%;
@@ -129,6 +163,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 20px;
 }
 
 footer nav {
@@ -144,3 +179,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/**css nav for about page**/
+nav{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+    /*border: red solid 2px;*/
+    margin-bottom: 20px;
+}
+
+.aboutDiv{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.divContainer{
+	width: 100%;
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
+    /*border: 5px black solid;*/
+    
+}
+
+.divContainer div{
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /*border: red solid 2px;*/
+    padding-bottom: 20px;
+}
+
+.divContainer div a{	
+	border: 1px solid black;
+	text-decoration: none; 
+	padding: 5px 20px 5px 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+	font-size: 12   px;
+}
+
+
