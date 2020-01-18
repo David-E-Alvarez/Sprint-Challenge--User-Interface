@@ -169,11 +169,46 @@ footer nav a {
     text-decoration: none;
 }
 
-nav{/**css nav for about page**/
+/**css nav for about page**/
+nav{
 	width:100%;
 	display: flex;
 	justify-content: space-between;
     /*border: red solid 2px;*/
     margin-bottom: 20px;
+}
+
+.aboutDiv{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.divContainer{
+	width: 100%;
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
+    /*border: 5px black solid;*/
+    
+}
+
+.divContainer div{
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /*border: red solid 2px;*/
+    padding-bottom: 20px;
+}
+
+.divContainer div a{	
+	border: 1px solid black;
+	text-decoration: none; 
+	padding: 5px 20px 5px 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+	font-size: 12   px;
 }
 
