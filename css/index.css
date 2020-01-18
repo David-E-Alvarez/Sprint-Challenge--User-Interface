@@ -98,7 +98,7 @@ p {
   
   .links a{
       text-decoration: none;
-      margin-right: 80px;
+      margin-right: 85px;
   }
   /*end*/
 
@@ -168,3 +168,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav{/**css nav for about page**/
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+    /*border: red solid 2px;*/
+    margin-bottom: 20px;
+}
+
